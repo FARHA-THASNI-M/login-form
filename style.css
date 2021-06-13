@@ -1,0 +1,421 @@
+
+
+
+*{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(to top right, #62D9DF 10%,#5c74dd 30%, #e629f3);
+}
+
+
+.box123{
+    position: relative;
+    background-color: rgb(44, 25, 110);
+    width: 377px;
+    height: 570px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -52%);
+    text-align: center;
+    border-radius: 13px;
+    overflow: hidden;
+    
+    background-color: #fff;
+  
+
+}
+
+
+h2{
+
+    font-size: 30px;
+    color: rgb(36, 36, 36);
+
+}
+
+
+
+#username{
+
+    
+    position: absolute;
+    
+    top: 110px;
+    left: 10.5%;
+
+    font-size: 12px;
+
+
+}
+
+#userbox{
+
+
+    position: absolute;
+    
+    top: 130px;
+    
+    
+    border: 0;
+    outline: 0;
+
+    height: 45px;
+
+    border-bottom: 1px solid silver;
+    
+    font-size: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+    width: 80%;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+
+    transition: 1s;
+
+
+}
+
+
+
+#userbox:focus{
+
+   border-bottom: 1px solid black;
+
+    
+}
+
+
+
+#password{
+
+
+    position: absolute;
+    
+    top: 200px;
+    left: 10.5%;
+
+    
+    font-size: 12px;
+
+}
+
+
+#passbox{
+
+
+    position: absolute;
+    
+    top: 220px;
+    border: 0;
+    outline: 0;
+
+    height: 45px;
+
+    border-bottom: 1px solid silver;
+    
+    font-size: 14px;
+
+
+    width: 80%;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+
+    transition: 1s;
+}
+
+#passbox:focus{
+    
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+#forgot{
+
+    position: absolute;
+    
+    top: 275px;
+    
+
+    right: 10%;
+
+
+
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+
+    font-size: 12px;
+
+    
+    
+
+}
+
+
+a:visited{
+
+    color: rgb(56, 56, 56);
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+#forgot:hover{
+
+    text-decoration: underline;
+
+}
+
+#btn{
+
+    position: absolute;
+    
+    top: 320px;
+    left: 50px;
+
+    font-family: 'med';
+    
+
+    border: 0;
+    outline: 0;
+
+    color: white;
+
+    background-image: linear-gradient(to right, #00bdc0, #e502e9);
+
+    cursor: pointer;
+    
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    left: 0%;
+    right: 0%;
+
+
+    border-radius: 25px;
+
+}
+
+
+
+
+#one{
+
+    position: absolute;
+    color: rgb(56, 56, 56);
+    
+    
+    margin: auto;
+    left: 0%;
+    right: 0%;
+
+    font-size: 12px;
+    bottom: 190px;
+
+
+    
+}
+
+
+
+
+
+
+
+
+#fb{
+
+    position: absolute;
+    background-color: #ffffff;
+
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+
+    bottom: 140px;
+
+    left: 30%;
+
+    cursor: pointer;
+
+
+}
+
+
+#fblogo{
+
+    position: absolute;
+
+   
+
+    height: 44px;
+    width: 44px;
+
+    bottom: 0.5px;
+
+    left: -1px;
+
+}
+
+
+
+
+
+
+
+#tweet{
+
+
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+
+    position: absolute;
+  
+
+    margin:auto;
+    left: 0;
+    right: 0%;
+
+    cursor: pointer;
+
+    bottom: 140px;
+
+}
+
+
+
+
+#google{
+
+
+    height: 40px;
+    width: 40px;
+
+    border-radius: 50%;
+
+    position: absolute;
+    background-color: #ea4335;
+
+    right: 30%;
+
+
+    bottom: 140px;
+
+    cursor: pointer;
+
+}
+
+
+#googlelogo{
+
+    
+    position: absolute;
+
+   
+
+    height: 24px;
+    width: 24px;
+
+    right: 0%;
+
+    top: 0%;
+    bottom: 0%;
+
+    margin: auto;
+
+    left: 0%;
+
+
+
+}
+
+#two{
+
+
+    
+    position: absolute;
+    color: rgb(56, 56, 56);
+    
+    
+    margin: auto;
+    left: 0%;
+    right: 0%;
+
+    font-size: 12px;
+    bottom: 60px;
+    
+    
+
+
+
+}
+
+
+#last{
+
+
+    font-family: 'med';
+     
+    position: absolute;
+    color: rgb(39, 39, 39);
+    
+    
+    margin: auto;
+    left: 0%;
+    right: 0%;
+
+    font-size: 12px;
+    bottom: 30px;
+
+
+
+}
+
+#last:hover{
+
+    text-decoration: underline;
+
+}
+.cust{
+    position: absolute;
+    color: silver;
+    left: 36px;
+    top: 149px;
+     
+    font-size: 10px;
+}
+.cust1{
+    position: absolute;
+    color: silver;
+    left: 31px;
+    top: 238px;
+     
+    font-size: 10px;
+}
+
+
+
